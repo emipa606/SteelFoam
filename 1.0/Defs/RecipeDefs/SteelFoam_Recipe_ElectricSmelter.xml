@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+  <RecipeDef Name="SmeltFoamMeta" Abstract="True">
+    <jobString>Steel Foam Smelting.</jobString>
+    <workAmount>200</workAmount>
+    <workSpeedStat>SmeltingSpeed</workSpeedStat>
+    <effectWorking>Smelt</effectWorking>
+    <soundWorking>Recipe_Smelt</soundWorking>
+    <workSkill>Crafting</workSkill>
+    <recipeUsers>
+      <li>ElectricSmelter</li>
+    </recipeUsers>
+  </RecipeDef>
+  <RecipeDef ParentName="SmeltFoamMeta">
+    <defName>SteelFoam_Smelt_Foam</defName>
+    <label>steel aeration</label>
+    <description>Aerate steel to create steel foam.</description>
+    <skillRequirements>
+      <Crafting>10</Crafting>
+    </skillRequirements>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Steel</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Steel</li>
+          </thingDefs>
+        </filter>
+        <count>5</count>
+      </li>
+    </ingredients>
+    <products>
+      <SteelFoam_AL>75</SteelFoam_AL>
+    </products>
+  </RecipeDef>
+  <RecipeDef ParentName="SmeltFoamMeta">
+    <defName>SteelFoam_Smelt_Steel</defName>
+    <label>smelt steel foam</label>
+    <description>Smelts steel foam into raw steel.</description>
+    <skillRequirements>
+      <Crafting>5</Crafting>
+    </skillRequirements>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>SteelFoam_AL</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>SteelFoam_AL</li>
+          </thingDefs>
+        </filter>
+        <count>75</count>
+      </li>
+    </ingredients>
+    <products>
+      <Steel>5</Steel>
+    </products>
+  </RecipeDef>
+</Defs>

@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef ParentName="ResourceBase">
+    <defName>SteelFoam_AL</defName>
+    <label>Steel Foam</label>
+    <description>An aerated iron-carbon alloy. Cheap, light-weight, structurally sound, and fire-resistant. This brittle miracle material is very easy to work with. Just don't bump it too hard.</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/AL_SteelFoam</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <color>(255,255,255)</color>
+    </graphicData>
+    <soundInteract>Metal_Drop</soundInteract>
+    <soundDrop>Metal_Drop</soundDrop>
+    <statBases>
+      <MarketValue>0.2</MarketValue>
+      <Mass>0.1</Mass>
+      <SharpDamageMultiplier>0.4</SharpDamageMultiplier>
+      <BluntDamageMultiplier>0.7</BluntDamageMultiplier>
+    </statBases>
+    <smeltable>true</smeltable>
+    <useHitPoints>false</useHitPoints>
+    <thingCategories>
+      <li>ResourcesRaw</li>
+    </thingCategories>
+    <stuffProps>
+      <categories>
+        <li>Metallic</li>
+      </categories>
+      <commonality>0.50</commonality>
+      <constructEffect>ConstructMetal</constructEffect>
+      <color>(200,210,240)</color>
+      <appearance>Bricks</appearance>
+      <soundImpactStuff>BulletImpact_Metal</soundImpactStuff>
+      <soundMeleeHitSharp>MeleeHit_Metal_Sharp</soundMeleeHitSharp>
+      <soundMeleeHitBlunt>MeleeHit_Metal_Blunt</soundMeleeHitBlunt>
+      <statFactors>
+        <MaxHitPoints>0.2</MaxHitPoints>
+        <Beauty>0</Beauty>
+        <Flammability>0</Flammability>
+        <WorkToMake>0.6</WorkToMake>
+        <WorkToBuild>0.6</WorkToBuild>
+        <MeleeWeapon_CooldownMultiplier>1.6</MeleeWeapon_CooldownMultiplier>
+      </statFactors>
+    </stuffProps>
+  </ThingDef>
+</Defs>
