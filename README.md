@@ -1,18 +1,18 @@
 # SteelFoam
 
-![Image](https://i.imgur.com/WAEzk68.png)
+![Image](https://i.imgur.com/buuPQel.png)
 
 Update of Alaestors mod
 https://steamcommunity.com/sharedfiles/filedetails/?id=1285369850
 
-![Image](https://i.imgur.com/7Gzt3Rg.png)
+![Image](https://i.imgur.com/pufA0kM.png)
 
 	
-![Image](https://i.imgur.com/NOW7jU1.png)
+![Image](https://i.imgur.com/Z4GOv8H.png)
 
 # Notice Of Abandonment
 
-*This mod is no longer maintained; it won&apos;t be receiving updates or fixes.*
+*This mod is no longer maintained; it won't be receiving updates or fixes.*
 Know of a suitable replacement? Leave a link in the comments!
 
 
@@ -20,7 +20,7 @@ Know of a suitable replacement? Leave a link in the comments!
 
 
 ----
-This mod adds Steel Foam. An aerated iron-carbon alloy. Cheap, light-weight, structurally sound, and fire-resistant. This brittle miracle material is very easy to work with. Just don&apos;t bump it too hard.
+This mod adds Steel Foam. An aerated iron-carbon alloy. Cheap, light-weight, structurally sound, and fire-resistant. This brittle miracle material is very easy to work with. Just don't bump it too hard.
 
 Steel foam can be created from steel at the electric smelter. You can also smelt foam back into steel.
 
@@ -28,7 +28,7 @@ Steel foam can be created from steel at the electric smelter. You can also smelt
 
 Mod Version: 0.0.1 Balance suggestions welcomed.
 
-![Image](https://i.imgur.com/Rs6T6cr.png)
+![Image](https://i.imgur.com/PwoNOj4.png)
 
 
 
@@ -38,6 +38,7 @@ Mod Version: 0.0.1 Balance suggestions welcomed.
 -  For best support, please use the Discord-channel for error-reporting.
 -  Do not report errors by making a discussion-thread, I get no notification of that.
 -  If you have the solution for a problem, please post it to the GitHub repository.
+
 
 
 
