@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: steel aeration -->
+  <SteelFoam_Smelt_Foam.label>steel aeration</SteelFoam_Smelt_Foam.label>
+  <!-- EN: Aerate steel to create steel foam. -->
+  <SteelFoam_Smelt_Foam.description>Aerate steel to create steel foam.</SteelFoam_Smelt_Foam.description>
+  <!-- EN: Steel Foam Smelting. -->
+  <SteelFoam_Smelt_Foam.jobString>Steel Foam Smelting.</SteelFoam_Smelt_Foam.jobString>
+  <!-- EN: smelt steel foam -->
+  <SteelFoam_Smelt_Steel.label>smelt steel foam</SteelFoam_Smelt_Steel.label>
+  <!-- EN: Smelts steel foam into raw steel. -->
+  <SteelFoam_Smelt_Steel.description>Smelts steel foam into raw steel.</SteelFoam_Smelt_Steel.description>
+  <!-- EN: Steel Foam Smelting. -->
+  <SteelFoam_Smelt_Steel.jobString>Steel Foam Smelting.</SteelFoam_Smelt_Steel.jobString>
+</LanguageData>
